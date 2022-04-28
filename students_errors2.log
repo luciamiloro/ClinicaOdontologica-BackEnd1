@@ -1,0 +1,33 @@
+[2021-09-2521:51:15] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2522:22:18] [ ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) [1, 'Perez', 38373837, 'Raton']"; SQL statement:
+insert into odontologos (apellido, matricula, nombre, id) values (?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-09-2522:23:38] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 2]
+[2021-09-2522:23:43] [ ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) [2, 'DeLosDientes', 38373837, 'Hada']"; SQL statement:
+insert into odontologos (apellido, matricula, nombre, id) values (?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-09-2522:42:09] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.clinicaOdontologica2.Model.Paciente.domicilio -> com.example.clinicaOdontologica2.Model.Domicilio; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.clinicaOdontologica2.Model.Paciente.domicilio -> com.example.clinicaOdontologica2.Model.Domicilio
+[2021-09-2522:44:15] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.clinicaOdontologica2.Model.Paciente.domicilio -> com.example.clinicaOdontologica2.Model.Domicilio; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.example.clinicaOdontologica2.Model.Paciente.domicilio -> com.example.clinicaOdontologica2.Model.Domicilio
+[2021-09-2823:02:52] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:03:23] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:04:23] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot deserialize value of type `int` from String "123123123123": Overflow: numeric value (123123123123) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "123123123123": Overflow: numeric value (123123123123) out of range of int (-2147483648 -2147483647)
+ at [Source: (PushbackInputStream); line: 1, column: 45] (through reference chain: com.example.clinicaOdontologica2.Model.PacienteDTO["dni"])
+[2021-09-2823:04:55] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:05:01] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:32:21] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:44:36] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:47:02] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:47:27] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:52:57] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:53:03] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:53:30] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2823:53:37] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:05:30] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:10:57] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:11:58] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:14:09] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:23:25] [ ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "listPaciente"
+[2021-09-2900:25:16] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:25:37] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:25:41] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2900:27:47] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
+[2021-09-2901:01:50] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' not supported
